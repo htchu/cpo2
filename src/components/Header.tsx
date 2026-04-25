@@ -18,7 +18,8 @@ export function Header({ lang, dict }: { lang: Locale; dict: Dictionary }) {
 
   const navItems = [
     { href: `/${lang}`, label: dict.nav.home },
-    { href: `/${lang}/about`, label: dict.nav.about },
+    { href: `/${lang}/emi-plan`, label: dict.nav.emi_plan },
+    { href: `/${lang}/about`, label: dict.nav.peer_observation },
     { href: `/${lang}/schedule`, label: dict.nav.schedule },
     { href: `/${lang}/resources`, label: dict.nav.resources },
     { href: `/${lang}/feedback`, label: dict.nav.feedback },

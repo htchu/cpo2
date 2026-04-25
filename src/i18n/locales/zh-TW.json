@@ -6,7 +6,8 @@
   },
   "nav": {
     "home": "首頁",
-    "about": "關於計畫",
+    "emi_plan": "EMI社群計畫",
+    "peer_observation": "同儕觀課計畫",
     "schedule": "觀課時程",
     "resources": "教學資源",
     "feedback": "觀課回饋"
@@ -38,6 +39,11 @@
         }
       ]
     }
+  },
+  "emi_plan": {
+    "title": "EMI社群計畫",
+    "description": "115年雙語教育跨校社群計畫書，由靜宜大學朱學亭老師主持，與中山大學EMI合作。",
+    "download_label": "下載計畫書"
   },
   "about": {
     "title": "關於計畫",
@@ -83,51 +89,13 @@
   },
   "schedule": {
     "title": "觀課時程",
-    "description": "以下時程列出本學期計畫的同儕觀課場次。",
-    "table": {
-      "week": "週次",
-      "date": "日期",
-      "topic": "主題",
-      "observer": "觀課者"
-    },
-    "sessions": [
-      {
-        "week": "3",
-        "date": "2026-03-16",
-        "topic": "進階物件導向設計",
-        "observer": "待定"
-      },
-      {
-        "week": "5",
-        "date": "2026-03-30",
-        "topic": "泛型程式設計與樣板",
-        "observer": "待定"
-      },
-      {
-        "week": "7",
-        "date": "2026-04-13",
-        "topic": "並行與多執行緒",
-        "observer": "待定"
-      },
-      {
-        "week": "9",
-        "date": "2026-04-27",
-        "topic": "記憶體管理與智慧指標",
-        "observer": "待定"
-      },
-      {
-        "week": "11",
-        "date": "2026-05-11",
-        "topic": "設計模式",
-        "observer": "待定"
-      },
-      {
-        "week": "13",
-        "date": "2026-05-25",
-        "topic": "效能優化與分析",
-        "observer": "待定"
-      }
-    ]
+    "description": "本學期同儕觀課場次資訊如下。",
+    "label_date": "日期",
+    "label_time": "時間",
+    "label_location": "地點",
+    "date": "2026-06-02（二）",
+    "time": "15:10–18:00",
+    "location": "資訊處計310教室"
   },
   "resources": {
     "title": "教學資源",

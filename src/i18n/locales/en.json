@@ -6,7 +6,8 @@
   },
   "nav": {
     "home": "Home",
-    "about": "About",
+    "emi_plan": "EMI Community Plan",
+    "peer_observation": "Peer Observation",
     "schedule": "Schedule",
     "resources": "Resources",
     "feedback": "Feedback"
@@ -38,6 +39,11 @@
         }
       ]
     }
+  },
+  "emi_plan": {
+    "title": "EMI Community Plan",
+    "description": "Bilingual Education Cross-University Community Plan (Year 115), led by Dr. Hsueh-Ting Chu from Providence University, in collaboration with National Sun Yat-sen University EMI.",
+    "download_label": "Download Plan"
   },
   "about": {
     "title": "About the Program",
@@ -83,51 +89,13 @@
   },
   "schedule": {
     "title": "Observation Schedule",
-    "description": "The following schedule outlines the planned peer observation sessions for the current semester.",
-    "table": {
-      "week": "Week",
-      "date": "Date",
-      "topic": "Topic",
-      "observer": "Observer"
-    },
-    "sessions": [
-      {
-        "week": "3",
-        "date": "2026-03-16",
-        "topic": "Advanced Object-Oriented Design",
-        "observer": "TBA"
-      },
-      {
-        "week": "5",
-        "date": "2026-03-30",
-        "topic": "Generic Programming & Templates",
-        "observer": "TBA"
-      },
-      {
-        "week": "7",
-        "date": "2026-04-13",
-        "topic": "Concurrency & Multithreading",
-        "observer": "TBA"
-      },
-      {
-        "week": "9",
-        "date": "2026-04-27",
-        "topic": "Memory Management & Smart Pointers",
-        "observer": "TBA"
-      },
-      {
-        "week": "11",
-        "date": "2026-05-11",
-        "topic": "Design Patterns",
-        "observer": "TBA"
-      },
-      {
-        "week": "13",
-        "date": "2026-05-25",
-        "topic": "Performance Optimization & Profiling",
-        "observer": "TBA"
-      }
-    ]
+    "description": "Peer observation session for the current semester.",
+    "label_date": "Date",
+    "label_time": "Time",
+    "label_location": "Location",
+    "date": "2026-06-02 (Tue)",
+    "time": "15:10–18:00",
+    "location": "Room 310, Information Building"
   },
   "resources": {
     "title": "Resources",

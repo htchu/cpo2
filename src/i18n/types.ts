@@ -6,7 +6,8 @@ export interface Dictionary {
   };
   nav: {
     home: string;
-    about: string;
+    emi_plan: string;
+    peer_observation: string;
     schedule: string;
     resources: string;
     feedback: string;
@@ -25,6 +26,11 @@ export interface Dictionary {
       }>;
     };
   };
+  emi_plan: {
+    title: string;
+    description: string;
+    download_label: string;
+  };
   about: {
     title: string;
     intro: string;
@@ -42,18 +48,12 @@ export interface Dictionary {
   schedule: {
     title: string;
     description: string;
-    table: {
-      week: string;
-      date: string;
-      topic: string;
-      observer: string;
-    };
-    sessions: Array<{
-      week: string;
-      date: string;
-      topic: string;
-      observer: string;
-    }>;
+    label_date: string;
+    label_time: string;
+    label_location: string;
+    date: string;
+    time: string;
+    location: string;
   };
   resources: {
     title: string;
