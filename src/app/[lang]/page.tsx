@@ -47,12 +47,12 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* PU image */}
+      {/* Main theme image */}
       <section className="bg-white py-12">
         <div className="px-4 flex justify-center">
           <Image
-            src="/pu.png"
-            alt="Providence University"
+            src="/main_theme.jpg"
+            alt={dict.site.title}
             width={800}
             height={450}
             priority
@@ -62,16 +62,15 @@ export default async function HomePage({
         </div>
       </section>
 
-      {/* Main theme image */}
-      <section className="bg-slate-50 py-12">
-        <div className="px-4 flex justify-center">
+      {/* PU image */}
+      <section className="bg-white pb-8">
+        <div className="flex justify-center">
           <Image
-            src="/main_theme.jpg"
-            alt={dict.site.title}
-            width={800}
-            height={450}
-            className="w-full max-w-[800px] h-auto rounded-xl shadow-lg"
-            sizes="(max-width: 800px) 100vw, 800px"
+            src="/pu.png"
+            alt="Providence University"
+            width={120}
+            height={0}
+            className="w-[120px] h-auto"
           />
         </div>
       </section>
