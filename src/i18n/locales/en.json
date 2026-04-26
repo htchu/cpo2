@@ -115,15 +115,168 @@
   },
   "syllabus": {
     "title": "Syllabus",
-    "description": "Course syllabus for Advanced Computer Programming."
+    "plan_name": "From Grinding to Co-Creating: Participatory Learning Action Research in Advanced Programming with LeetCode and CPE",
+    "info": {
+      "label_instructor": "Instructor",
+      "instructor": "Hsueh-Ting Chu",
+      "label_department": "Department",
+      "department": "International Bachelor Program of Computer Science",
+      "label_course": "Course",
+      "course": "Introduction to Computer Science (II)",
+      "label_semester": "Semester",
+      "semester": "114-2",
+      "label_credits": "Credits",
+      "credits": "2",
+      "label_class": "Class",
+      "class_name": "IPCS Year 1 Section A",
+      "label_students": "Enrollment",
+      "students": "20",
+      "label_venue": "Venue",
+      "venue": "Computer Lab",
+      "label_attribute": "Attribute",
+      "attribute": "Required / EMI"
+    },
+    "summary_title": "Summary",
+    "summary": "This course addresses the learning challenges students face in advanced programming when preparing for the CPE (Collegiate Programming Examination). It proposes a participatory teaching model using LeetCode as scaffolding. The course uses C/C++ as the primary implementation language, leveraging its high performance and memory management capabilities for exam preparation, supplemented by Python for rapid algorithm logic verification. The plan introduces a participatory learning spirit, breaking the traditional isolated problem-solving approach through Peer Code Review, Pair Programming, and Study Groups to build a collaborative learning community.",
+    "design_title": "Core Framework: Four Principles of Participatory Learning",
+    "phases": [
+      {
+        "title": "Spiral Thinking Strategy",
+        "description": "The course follows a spiral cycle: Explore Principles → LeetCode Practice → CPE Challenge → Peer Feedback.",
+        "steps": [
+          { "title": "Explore", "description": "Instructor explains core algorithm concepts (e.g., DFS/BFS) with Python demonstrations." },
+          { "title": "Practice", "description": "Students use C/C++ on LeetCode for basic problems, mastering syntax and edge cases." },
+          { "title": "Challenge", "description": "Tackle CPE past exam problems with complex I/O and test data." },
+          { "title": "Feedback", "description": "Group code performance review and deeper optimization in the next cycle." }
+        ]
+      },
+      {
+        "title": "Practical Action Planning",
+        "description": "The course directly connects to CPE certification and software engineer technical interviews.",
+        "steps": [
+          { "title": "Mock Exams", "description": "Conduct in-class CPE simulation exams under real exam time pressure." },
+          { "title": "Daily Challenge", "description": "Post one daily LeetCode problem via class group to maintain practice." },
+          { "title": "Certification & Career", "description": "Course output links to CPE scores and personal LeetCode Profile for job applications." },
+          { "title": "Knowledge Base", "description": "Students build a collaborative CPE solution wiki for future cohorts." }
+        ]
+      }
+    ],
+    "weekly_title": "Weekly Schedule",
+    "weekly_headers": {
+      "week": "Week",
+      "topic": "Topic",
+      "content": "Description",
+      "note": "Phase"
+    },
+    "weeks": [
+      { "week": "1", "topic": "Course Intro & Setup", "content": "Introduce CPE rules and LeetCode platform. Set up C++ development environment.", "note": "Spiral-Explore" },
+      { "week": "2", "topic": "C++ I/O & String Processing", "content": "CPE-frequent string parsing. Practice stringstream, getline techniques.", "note": "Spiral-Practice" },
+      { "week": "3", "topic": "STL Mastery (1): Sequence Containers", "content": "Use std::vector, std::list to solve LeetCode array problems.", "note": "Action" },
+      { "week": "4", "topic": "STL Mastery (2): Associative Containers", "content": "Use std::map, std::set for frequency statistics (Hash Map applications).", "note": "Spiral-Analysis" },
+      { "week": "5", "topic": "Sorting & Complexity Analysis", "content": "Analyze Big-O of sorting algorithms. Code Review for performance.", "note": "Feedback" },
+      { "week": "6", "topic": "Searching Strategies", "content": "LeetCode Binary Search focus. Solve CPE sequence search problems.", "note": "Action" },
+      { "week": "7", "topic": "Basic Number Theory", "content": "Implement GCD, Sieve of Eratosthenes. CPE math problem training.", "note": "Spiral-Practice" },
+      { "week": "8", "topic": "Midterm Exam", "content": "In-class CPE mock test. Simulate real exam conditions (7 problems / 3 hours).", "note": "Action" },
+      { "week": "9", "topic": "Greedy Algorithms", "content": "Classic CPE greedy problems (e.g., scheduling). Group discussion on local optima.", "note": "Spiral-Action" },
+      { "week": "10", "topic": "Recursion & Backtracking", "content": "Use Python recursion trees for logic, then implement N-Queens in C++.", "note": "Spiral-Explore" },
+      { "week": "11", "topic": "Dynamic Programming (1)", "content": "From recursion to DP. Introduce Memoization and Tabulation.", "note": "Development" },
+      { "week": "12", "topic": "Dynamic Programming (2)", "content": "Implement LIS, LCS. Essential CPE problem analysis.", "note": "Spiral-Analysis" },
+      { "week": "13", "topic": "Graph Theory (1): Traversal", "content": "Solve maze problems. Implement Queue and Stack for search.", "note": "Action" },
+      { "week": "14", "topic": "Graph Theory (2): Shortest Path", "content": "Dijkstra and Floyd-Warshall implementation. Map navigation analysis.", "note": "Spiral-Action" },
+      { "week": "15", "topic": "Advanced Data Structures", "content": "Tree Traversal and Union-Find. Group challenge on hard CPE problems.", "note": "Development" },
+      { "week": "16", "topic": "Final Project", "content": "Group presentations of CPE solution technical reports with Q&A.", "note": "Feedback" },
+      { "week": "17", "topic": "Self-Directed Learning", "content": "Summarize learning journey.", "note": "Development" },
+      { "week": "18", "topic": "Self-Directed Learning", "content": "Summarize learning journey.", "note": "Development" }
+    ],
+    "outcomes_title": "Expected Learning Outcomes",
+    "outcomes": [
+      { "title": "Knowledge", "description": "Students can explain Big-O time complexity and master 10+ C++ STL containers and their appropriate use cases." },
+      { "title": "Skills", "description": "Students can independently solve CPE intermediate problems in C/C++ within 30 minutes with debugging and optimization skills." },
+      { "title": "Attitude", "description": "Students shift from fearing programming to enjoying problem-solving challenges and actively participating in tech communities." }
+    ],
+    "deliverables_title": "Expected Deliverables",
+    "deliverables": [
+      "CPE Solution Handbook: A class-wide collaborative C++ solution codebase compiled as an e-book or GitHub Repo.",
+      "LeetCode Portfolio: Each student builds a personal problem-solving profile (solved count, contest scores) for job applications.",
+      "Participatory Teaching Module: A complete OBE-integrated participatory learning programming education module."
+    ]
   },
   "teaching_log": {
     "title": "Materials & Log",
-    "description": "Course materials and teaching log."
+    "description": "Course materials and teaching log.",
+    "materials": [
+      {
+        "code": "PUAP01",
+        "title": "Course Intro to Advanced Programming",
+        "description": "Course introduction and overview of advanced programming.",
+        "file": "/PUAP01-Course_Intro_to_AdvancedProgramming.pdf"
+      },
+      {
+        "code": "PUAP02",
+        "title": "Python Programming for Two Sum",
+        "description": "Solving the Two Sum problem with Python.",
+        "file": "/PUAP02-Python programming for Two Sum.pdf"
+      },
+      {
+        "code": "PUAP03",
+        "title": "Python Programming for Plus One",
+        "description": "Solving the Plus One problem with Python.",
+        "file": "/PUAP03-Python programming for Plus One.pdf"
+      },
+      {
+        "code": "PUAP04",
+        "title": "Python Programming for Valid Parentheses",
+        "description": "Solving the Valid Parentheses problem with Python.",
+        "file": "/PUAP04-Python programming for Valid Parentheses.pdf"
+      },
+      {
+        "code": "PUAP05",
+        "title": "Python Programming for Binary Search",
+        "description": "Solving the Binary Search problem with Python.",
+        "file": "/PUAP05-Python programming for Binary Search.pdf"
+      },
+      {
+        "code": "PUAP06",
+        "title": "C++ Programming for Maximum Subarray",
+        "description": "Solving the Maximum Subarray problem with C++.",
+        "file": "/PUAP06-C++ programming for Maximum Subarray.pdf"
+      },
+      {
+        "code": "PUAP09",
+        "title": "Rust Programming - CPE1",
+        "description": "CPE exam practice using Rust.",
+        "file": "/PUAP09-Rust programming-CPE1.pdf"
+      }
+    ]
   },
   "student_profile": {
     "title": "Student Profile",
-    "description": "Overview of student composition for the course."
+    "description": "Overview of student composition for the course.",
+    "total_label": "Total Students",
+    "total": 26,
+    "charts": [
+      {
+        "title": "Local vs International",
+        "segments": [
+          { "label": "Local", "value": 6, "color": "#3b82f6" },
+          { "label": "International", "value": 20, "color": "#f59e0b" }
+        ]
+      },
+      {
+        "title": "Degree vs Exchange",
+        "segments": [
+          { "label": "Degree", "value": 24, "color": "#10b981" },
+          { "label": "Exchange", "value": 2, "color": "#8b5cf6" }
+        ]
+      },
+      {
+        "title": "Gender",
+        "segments": [
+          { "label": "Male", "value": 20, "color": "#6366f1" },
+          { "label": "Female", "value": 6, "color": "#ec4899" }
+        ]
+      }
+    ]
   },
   "teaching_methods": {
     "title": "Teaching Methods",

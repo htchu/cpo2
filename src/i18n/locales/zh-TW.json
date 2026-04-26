@@ -115,15 +115,168 @@
   },
   "syllabus": {
     "title": "教學計畫",
-    "description": "進階程式設計課程教學計畫。"
+    "plan_name": "從刷題到共創：結合 LeetCode 與 CPE 檢定之進階程式設計參與式學習行動研究",
+    "info": {
+      "label_instructor": "申請人",
+      "instructor": "朱學亭",
+      "label_department": "單位系所",
+      "department": "國際資訊學士學位學程",
+      "label_course": "課程名稱",
+      "course": "計算機概論(二)",
+      "label_semester": "開課學期",
+      "semester": "114-2",
+      "label_credits": "學分數",
+      "credits": "2 學分",
+      "label_class": "開課班級",
+      "class_name": "國際資訊學士學位學程一A",
+      "label_students": "預計人數",
+      "students": "20",
+      "label_venue": "場域",
+      "venue": "電腦教室",
+      "label_attribute": "課程屬性",
+      "attribute": "系所必修 / EMI全英語教學類"
+    },
+    "summary_title": "計畫摘要",
+    "summary": "本課程針對「進階程式設計」課程中，學生面對 CPE (Collegiate Programming Examination) 大學程式能力檢定時的學習痛點，提出以 LeetCode 為鷹架的參與式教學模式。課程以 C/C++ 為主要實作語言，藉由其高效能與記憶體管理特性應對檢定需求，並輔以 Python 進行快速演算法邏輯驗證。計畫導入「參與式學習」精神，打破傳統孤島式的刷題模式，透過「同儕代碼審查 (Peer Code Review)」、「配對程式設計 (Pair Programming)」與「解題讀書會」等機制，建立共學社群。課程目標在於透過螺旋式的訓練流程，提升學生之演算法實作能力、CPE 檢定通過率，以及解決複雜運算問題的協作能力。",
+    "design_title": "課程核心架構：參與式學習四原則之實踐",
+    "phases": [
+      {
+        "title": "螺旋式思考之策略與規劃",
+        "description": "課程遵循「初探原理 → LeetCode 實作 → CPE 挑戰 → 同儕回饋」的螺旋循環。",
+        "steps": [
+          { "title": "初探", "description": "教師講解演算法核心概念（如 DFS/BFS），並以 Python 示範簡易邏輯。" },
+          { "title": "實作", "description": "學生轉換使用 C/C++ 於 LeetCode 練習基礎題，熟悉語法與邊界條件。" },
+          { "title": "挑戰", "description": "進入 CPE 考古題實戰，處理複雜 I/O 與測資。" },
+          { "title": "回饋", "description": "小組檢討程式碼效能，並進行下一輪更深度的優化。" }
+        ]
+      },
+      {
+        "title": "實踐行動的規劃與設計",
+        "description": "課程直接對接「CPE 大學程式能力檢定」以及「軟體工程師技術面試」場域。",
+        "steps": [
+          { "title": "模擬檢定賽", "description": "舉辦班級內部的 CPE 模擬考，模擬真實考試的時間壓力與環境。" },
+          { "title": "每日一題", "description": "利用 LeetCode 班級群組，每日發布一題任務，維持手感。" },
+          { "title": "證照與就業", "description": "課程產出直接連結 CPE 證照成績，並建立個人的 LeetCode Profile 作為求職佐證。" },
+          { "title": "題庫共建", "description": "學生建立「CPE 題解共筆知識庫」，將解題思路整理成文件傳承給學弟妹。" }
+        ]
+      }
+    ],
+    "weekly_title": "每週課程進度",
+    "weekly_headers": {
+      "week": "週次",
+      "topic": "課程主題",
+      "content": "內容說明",
+      "note": "階段"
+    },
+    "weeks": [
+      { "week": "1", "topic": "課程導論與環境建置", "content": "介紹 CPE 規則與 LeetCode 平台。建置 C++ 開發環境。", "note": "螺旋-初探" },
+      { "week": "2", "topic": "C++ I/O & String Processing", "content": "CPE 常考的字串解析 (Parsing)。練習 stringstream, getline 等技巧。", "note": "螺旋-實作" },
+      { "week": "3", "topic": "STL Mastery (1): Sequence Containers", "content": "使用 std::vector, std::list 解決 LeetCode 陣列題目。", "note": "實踐行動" },
+      { "week": "4", "topic": "STL Mastery (2): Associative Containers", "content": "利用 std::map, std::set 處理資料頻率統計問題。", "note": "螺旋-分析" },
+      { "week": "5", "topic": "Sorting & Complexity Analysis", "content": "分析不同排序法的 Big-O。Code Review 檢視程式效能。", "note": "回饋" },
+      { "week": "6", "topic": "Searching Strategies", "content": "LeetCode Binary Search 專題。解決 CPE 數列搜尋類題目。", "note": "實踐行動" },
+      { "week": "7", "topic": "Basic Number Theory", "content": "實作 GCD, Sieve of Eratosthenes (質數篩法)。CPE 數學題型特訓。", "note": "螺旋-實作" },
+      { "week": "8", "topic": "Midterm Exam", "content": "校內 CPE 模擬測驗。模擬真實考試時限與題數 (7題/3小時)。", "note": "實踐行動" },
+      { "week": "9", "topic": "Greedy Algorithms", "content": "CPE 經典貪婪題型（如：排程問題）。分組討論「局部最佳解」策略。", "note": "螺旋-行動" },
+      { "week": "10", "topic": "Recursion & Backtracking", "content": "利用 Python 畫遞迴樹理解邏輯，再用 C++ 實作 N-Queens 問題。", "note": "螺旋-初探" },
+      { "week": "11", "topic": "Dynamic Programming (1)", "content": "從遞迴到 DP。介紹 Memoization 與 Tabulation。", "note": "發展性" },
+      { "week": "12", "topic": "Dynamic Programming (2)", "content": "實作 LIS、LCS。CPE 必考題型解析。", "note": "螺旋-分析" },
+      { "week": "13", "topic": "Graph Theory (1): Traversal", "content": "解決迷宮問題。實作 Queue 與 Stack 輔助搜尋。", "note": "實踐行動" },
+      { "week": "14", "topic": "Graph Theory (2): Shortest Path", "content": "Dijkstra 與 Floyd-Warshall 演算法實作。分析地圖導航原理。", "note": "螺旋-行動" },
+      { "week": "15", "topic": "Advanced Data Structures", "content": "介紹 Tree Traversal 與 Union-Find。針對 CPE 高難度題目分組挑戰。", "note": "發展性" },
+      { "week": "16", "topic": "Final Project", "content": "各組發表「CPE 題解技術報告」。演示解題思路並接受同學提問。", "note": "回饋" },
+      { "week": "17", "topic": "期末自主學習", "content": "總結學習歷程。", "note": "發展性" },
+      { "week": "18", "topic": "期末自主學習", "content": "總結學習歷程。", "note": "發展性" }
+    ],
+    "outcomes_title": "預期學習成效",
+    "outcomes": [
+      { "title": "知識 (Knowledge)", "description": "學生能清楚解釋時間複雜度 (Big-O)，並掌握 C++ STL 十種以上常用容器與演算法的適用情境。" },
+      { "title": "技能 (Skills)", "description": "學生能獨立運用 C/C++ 在 30 分鐘內解決 CPE 中級題目，並具備 Debug 與優化程式碼的能力。" },
+      { "title": "態度 (Attitude)", "description": "學生從「畏懼寫程式」轉變為「享受解題挑戰」，並建立主動參與技術社群討論的習慣。" }
+    ],
+    "deliverables_title": "預期課程產出",
+    "deliverables": [
+      "CPE 實戰題解手冊：彙整全班共創的 C++ 題解程式碼與思路分析，製作成電子書或 Github Repo。",
+      "LeetCode 學習歷程檔案：每位學生建立個人的解題履歷（包含通過題數、競賽積分），作為求職作品集。",
+      "參與式解題教案：產出一套結合 OBE 與參與式學習的程式設計教學模組。"
+    ]
   },
   "teaching_log": {
     "title": "教材和記錄",
-    "description": "課程教材與教學記錄。"
+    "description": "課程教材與教學記錄。",
+    "materials": [
+      {
+        "code": "PUAP01",
+        "title": "Course Intro to Advanced Programming",
+        "description": "課程導論與進階程式設計介紹。",
+        "file": "/PUAP01-Course_Intro_to_AdvancedProgramming.pdf"
+      },
+      {
+        "code": "PUAP02",
+        "title": "Python Programming for Two Sum",
+        "description": "使用 Python 解決 Two Sum 問題。",
+        "file": "/PUAP02-Python programming for Two Sum.pdf"
+      },
+      {
+        "code": "PUAP03",
+        "title": "Python Programming for Plus One",
+        "description": "使用 Python 解決 Plus One 問題。",
+        "file": "/PUAP03-Python programming for Plus One.pdf"
+      },
+      {
+        "code": "PUAP04",
+        "title": "Python Programming for Valid Parentheses",
+        "description": "使用 Python 解決 Valid Parentheses 問題。",
+        "file": "/PUAP04-Python programming for Valid Parentheses.pdf"
+      },
+      {
+        "code": "PUAP05",
+        "title": "Python Programming for Binary Search",
+        "description": "使用 Python 解決 Binary Search 問題。",
+        "file": "/PUAP05-Python programming for Binary Search.pdf"
+      },
+      {
+        "code": "PUAP06",
+        "title": "C++ Programming for Maximum Subarray",
+        "description": "使用 C++ 解決 Maximum Subarray 問題。",
+        "file": "/PUAP06-C++ programming for Maximum Subarray.pdf"
+      },
+      {
+        "code": "PUAP09",
+        "title": "Rust Programming - CPE1",
+        "description": "使用 Rust 進行 CPE 檢定練習。",
+        "file": "/PUAP09-Rust programming-CPE1.pdf"
+      }
+    ]
   },
   "student_profile": {
     "title": "學生組成",
-    "description": "課程學生組成概況。"
+    "description": "課程學生組成概況。",
+    "total_label": "學生總人數",
+    "total": 26,
+    "charts": [
+      {
+        "title": "本地生 vs 國際生",
+        "segments": [
+          { "label": "本地生", "value": 6, "color": "#3b82f6" },
+          { "label": "國際生", "value": 20, "color": "#f59e0b" }
+        ]
+      },
+      {
+        "title": "學位生 vs 交換生",
+        "segments": [
+          { "label": "學位生", "value": 24, "color": "#10b981" },
+          { "label": "交換生", "value": 2, "color": "#8b5cf6" }
+        ]
+      },
+      {
+        "title": "性別比例",
+        "segments": [
+          { "label": "男生", "value": 20, "color": "#6366f1" },
+          { "label": "女生", "value": 6, "color": "#ec4899" }
+        ]
+      }
+    ]
   },
   "teaching_methods": {
     "title": "教學方法",

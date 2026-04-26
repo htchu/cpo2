@@ -51,15 +51,76 @@ export interface Dictionary {
   };
   syllabus: {
     title: string;
-    description: string;
+    plan_name: string;
+    info: {
+      label_instructor: string;
+      instructor: string;
+      label_department: string;
+      department: string;
+      label_course: string;
+      course: string;
+      label_semester: string;
+      semester: string;
+      label_credits: string;
+      credits: string;
+      label_class: string;
+      class_name: string;
+      label_students: string;
+      students: string;
+      label_venue: string;
+      venue: string;
+      label_attribute: string;
+      attribute: string;
+    };
+    summary_title: string;
+    summary: string;
+    design_title: string;
+    phases: Array<{
+      title: string;
+      description: string;
+      steps: Array<{ title: string; description: string }>;
+    }>;
+    weekly_title: string;
+    weekly_headers: {
+      week: string;
+      topic: string;
+      content: string;
+      note: string;
+    };
+    weeks: Array<{
+      week: string;
+      topic: string;
+      content: string;
+      note: string;
+    }>;
+    outcomes_title: string;
+    outcomes: Array<{ title: string; description: string }>;
+    deliverables_title: string;
+    deliverables: string[];
   };
   teaching_log: {
     title: string;
     description: string;
+    materials: Array<{
+      code: string;
+      title: string;
+      description: string;
+      file: string;
+    }>;
   };
   student_profile: {
     title: string;
     description: string;
+    total_label: string;
+    total: number;
+    charts: Array<{
+      title: string;
+      segments: Array<{
+        label: string;
+        value: number;
+        color: string;
+      }>;
+    }>;
   };
   teaching_methods: {
     title: string;
