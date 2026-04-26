@@ -1,3 +1,8 @@
+export interface NavDropdown {
+  label: string;
+  items: Array<{ href: string; label: string }>;
+}
+
 export interface Dictionary {
   site: {
     title: string;
@@ -6,11 +11,10 @@ export interface Dictionary {
   };
   nav: {
     home: string;
-    emi_plan: string;
-    peer_observation: string;
-    schedule: string;
-    resources: string;
-    feedback: string;
+    about: NavDropdown;
+    course: NavDropdown;
+    emi_teaching: NavDropdown;
+    observation: NavDropdown;
   };
   home: {
     hero_title: string;
@@ -44,6 +48,30 @@ export interface Dictionary {
     }>;
     principles_title: string;
     principles: string[];
+  };
+  syllabus: {
+    title: string;
+    description: string;
+  };
+  teaching_log: {
+    title: string;
+    description: string;
+  };
+  student_profile: {
+    title: string;
+    description: string;
+  };
+  teaching_methods: {
+    title: string;
+    description: string;
+  };
+  platforms_tools: {
+    title: string;
+    description: string;
+  };
+  emi_resources: {
+    title: string;
+    description: string;
   };
   schedule: {
     title: string;

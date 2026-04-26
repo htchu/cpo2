@@ -6,11 +6,37 @@
   },
   "nav": {
     "home": "Home",
-    "emi_plan": "EMI Community Plan",
-    "peer_observation": "Peer Observation",
-    "schedule": "Schedule",
-    "resources": "Resources",
-    "feedback": "Feedback"
+    "about": {
+      "label": "About",
+      "items": [
+        { "href": "/about", "label": "Peer Observation" },
+        { "href": "/emi-plan", "label": "EMI Community Plan" }
+      ]
+    },
+    "course": {
+      "label": "Course",
+      "items": [
+        { "href": "/syllabus", "label": "Syllabus" },
+        { "href": "/teaching_log", "label": "Materials & Log" },
+        { "href": "/student_profile", "label": "Student Profile" }
+      ]
+    },
+    "emi_teaching": {
+      "label": "EMI Teaching",
+      "items": [
+        { "href": "/teaching_methods", "label": "Teaching Methods" },
+        { "href": "/platforms_tools", "label": "Platforms & Tools" },
+        { "href": "/emi_resources", "label": "EMI Resources" }
+      ]
+    },
+    "observation": {
+      "label": "Observation",
+      "items": [
+        { "href": "/schedule", "label": "Schedule" },
+        { "href": "/resources", "label": "Observation Guide" },
+        { "href": "/feedback", "label": "Feedback" }
+      ]
+    }
   },
   "home": {
     "hero_title": "Course Peer Observation",
@@ -46,7 +72,7 @@
     "download_label": "Download Plan"
   },
   "about": {
-    "title": "About the Program",
+    "title": "Peer Observation Program",
     "intro": "The Course Peer Observation program for Advanced Computer Programming is designed to enhance teaching quality through a structured, supportive peer review process. This initiative brings together instructors to observe, reflect, and improve their teaching practices in an EMI (English as a Medium of Instruction) context.",
     "objectives_title": "Objectives",
     "objectives": [
@@ -87,6 +113,30 @@
       "Growth — The focus is on continuous improvement, not perfection"
     ]
   },
+  "syllabus": {
+    "title": "Syllabus",
+    "description": "Course syllabus for Advanced Computer Programming."
+  },
+  "teaching_log": {
+    "title": "Materials & Log",
+    "description": "Course materials and teaching log."
+  },
+  "student_profile": {
+    "title": "Student Profile",
+    "description": "Overview of student composition for the course."
+  },
+  "teaching_methods": {
+    "title": "Teaching Methods",
+    "description": "EMI teaching methods and strategies used in this course."
+  },
+  "platforms_tools": {
+    "title": "Platforms & Tools",
+    "description": "Teaching platforms and tools used in the course."
+  },
+  "emi_resources": {
+    "title": "EMI Resources",
+    "description": "EMI teaching resources and references."
+  },
   "schedule": {
     "title": "Observation Schedule",
     "description": "Peer observation session for the current semester.",
@@ -98,8 +148,8 @@
     "location": "Room 310, Information Building"
   },
   "resources": {
-    "title": "Resources",
-    "description": "Useful resources for peer observation participants.",
+    "title": "Observation Guide",
+    "description": "Practical resources and guidelines for peer observation participants.",
     "categories": [
       {
         "title": "Observation Tools",

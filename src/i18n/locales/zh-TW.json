@@ -6,11 +6,37 @@
   },
   "nav": {
     "home": "首頁",
-    "emi_plan": "EMI社群計畫",
-    "peer_observation": "同儕觀課計畫",
-    "schedule": "觀課時程",
-    "resources": "教學資源",
-    "feedback": "觀課回饋"
+    "about": {
+      "label": "關於計畫",
+      "items": [
+        { "href": "/about", "label": "同儕觀課計畫" },
+        { "href": "/emi-plan", "label": "EMI社群計畫" }
+      ]
+    },
+    "course": {
+      "label": "關於課程",
+      "items": [
+        { "href": "/syllabus", "label": "教學計畫" },
+        { "href": "/teaching_log", "label": "教材和記錄" },
+        { "href": "/student_profile", "label": "學生組成" }
+      ]
+    },
+    "emi_teaching": {
+      "label": "EMI教學",
+      "items": [
+        { "href": "/teaching_methods", "label": "教學方法" },
+        { "href": "/platforms_tools", "label": "平台與工具" },
+        { "href": "/emi_resources", "label": "相關EMI資源" }
+      ]
+    },
+    "observation": {
+      "label": "觀課資訊",
+      "items": [
+        { "href": "/schedule", "label": "觀課時程" },
+        { "href": "/resources", "label": "觀課指引" },
+        { "href": "/feedback", "label": "觀課回饋" }
+      ]
+    }
   },
   "home": {
     "hero_title": "課程同儕觀課",
@@ -46,7 +72,7 @@
     "download_label": "下載計畫書"
   },
   "about": {
-    "title": "關於計畫",
+    "title": "同儕觀課計畫",
     "intro": "進階程式設計課程同儕觀課計畫旨在透過結構化、支持性的同儕審查流程來提升教學品質。此計畫匯集教師在 EMI（英語授課）情境中觀察、反思和改善教學實踐。",
     "objectives_title": "計畫目標",
     "objectives": [
@@ -87,6 +113,30 @@
       "成長 — 重點在於持續改進，而非追求完美"
     ]
   },
+  "syllabus": {
+    "title": "教學計畫",
+    "description": "進階程式設計課程教學計畫。"
+  },
+  "teaching_log": {
+    "title": "教材和記錄",
+    "description": "課程教材與教學記錄。"
+  },
+  "student_profile": {
+    "title": "學生組成",
+    "description": "課程學生組成概況。"
+  },
+  "teaching_methods": {
+    "title": "教學方法",
+    "description": "本課程採用的 EMI 教學方法與策略。"
+  },
+  "platforms_tools": {
+    "title": "平台與工具",
+    "description": "課程使用的教學平台與工具。"
+  },
+  "emi_resources": {
+    "title": "相關EMI資源",
+    "description": "EMI 教學相關資源與參考資料。"
+  },
   "schedule": {
     "title": "觀課時程",
     "description": "本學期同儕觀課場次資訊如下。",
@@ -98,8 +148,8 @@
     "location": "資訊處計310教室"
   },
   "resources": {
-    "title": "教學資源",
-    "description": "提供同儕觀課參與者的實用資源。",
+    "title": "觀課指引",
+    "description": "提供同儕觀課參與者的實用資源與指引。",
     "categories": [
       {
         "title": "觀課工具",
