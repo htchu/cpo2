@@ -320,7 +320,53 @@
   },
   "teaching_methods": {
     "title": "Teaching Methods",
-    "description": "EMI teaching methods and strategies used in this course."
+    "description": "This course centers on participatory learning, combining diverse teaching strategies to break the traditional isolated learning model and enhance outcomes through collaboration and interaction.",
+    "methods": [
+      {
+        "title": "Scaffolding",
+        "subtitle": "Learning Scaffolding",
+        "description": "Using LeetCode as a preliminary scaffold with its user-friendly interface and clear difficulty levels (Easy/Medium/Hard) to guide students progressively into complex CPE problems. The course follows a spiral cycle: Explore Principles → LeetCode Practice → CPE Challenge → Peer Feedback.",
+        "points": [
+          "Explore: Instructor explains core algorithm concepts (e.g., DFS/BFS) with Python demonstrations",
+          "Practice: Students switch to C/C++ on LeetCode for basic problems, mastering syntax and edge cases",
+          "Challenge: Tackle CPE past exam problems with complex I/O and test data",
+          "Feedback: Group code performance review and deeper optimization in the next cycle"
+        ]
+      },
+      {
+        "title": "Jigsaw Classroom",
+        "subtitle": "Jigsaw Teaching Method",
+        "description": "Complex algorithm topics are divided into sub-topics, with each student responsible for researching a different sub-topic before returning to their group to teach other members, ensuring every student gains deep understanding and has the opportunity to express themselves.",
+        "points": [
+          "CPE problem types (string processing, sorting, dynamic programming) are assigned to different students for in-depth study",
+          "Students become 'experts' on their sub-topic and share problem-solving approaches and C++ implementation techniques with their group",
+          "Through peer teaching, students shift from passive listening to active explanation",
+          "Develops students' ability to express technical concepts in English, reinforcing EMI learning outcomes"
+        ]
+      },
+      {
+        "title": "Cooperative Learning",
+        "subtitle": "Collaborative Learning",
+        "description": "Through mechanisms such as Peer Code Review, Pair Programming, and Problem-Solving Study Groups, a collaborative learning community is established where students construct knowledge through social interaction.",
+        "points": [
+          "Code Review Circles: Weekly group code reviews checking C++ memory usage and runtime efficiency",
+          "Pair Programming: Two students work together — one writes code, the other reviews in real-time — building team engineering skills",
+          "Problem-Solving Study Groups: Regular discussions of CPE past exam solutions, collaboratively building a solution knowledge base",
+          "Student Instructor Mechanism: Students present solutions to specific difficult problems while classmates offer optimization suggestions"
+        ]
+      },
+      {
+        "title": "Engaged Learning",
+        "subtitle": "Participatory Learning",
+        "description": "Student-centered learning driven by real-world problem domains (CPE certification, technical interviews), combining daily challenges and mock exams to encourage active participation and deep engagement.",
+        "points": [
+          "Mock Exams: In-class CPE simulation tests replicating real exam time pressure and conditions",
+          "Daily Challenge: One daily LeetCode problem posted via class group to maintain practice momentum",
+          "Learning Portfolio: Each student builds a personal LeetCode Profile tracking solved count and acceptance rate",
+          "Reflective Journal: Students record weekly difficulties and breakthroughs to promote metacognitive development"
+        ]
+      }
+    ]
   },
   "platforms_tools": {
     "title": "Platforms & Tools",
@@ -338,7 +384,7 @@
     "label_location": "Location",
     "date": "2026-06-02 (Tue)",
     "time": "15:10–18:00",
-    "location": "Room 310, Information Building"
+    "location": "Room 310, Information Building (Providence University, Ren-Yuan Building 4F)"
   },
   "resources": {
     "title": "Observation Guide",

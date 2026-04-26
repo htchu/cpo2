@@ -137,6 +137,12 @@ export interface Dictionary {
   teaching_methods: {
     title: string;
     description: string;
+    methods: Array<{
+      title: string;
+      subtitle: string;
+      description: string;
+      points: string[];
+    }>;
   };
   platforms_tools: {
     title: string;
