@@ -48,6 +48,18 @@ export interface Dictionary {
     }>;
     principles_title: string;
     principles: string[];
+    emi_tdc: {
+      title: string;
+      intro: string;
+      services: Array<{
+        title: string;
+        description: string;
+      }>;
+      links: Array<{
+        label: string;
+        url: string;
+      }>;
+    };
   };
   syllabus: {
     title: string;
@@ -158,18 +170,9 @@ export interface Dictionary {
   feedback: {
     title: string;
     description: string;
-    form: {
-      observer_name: string;
-      observation_date: string;
-      course_topic: string;
-      strengths: string;
-      suggestions: string;
-      additional: string;
-      submit: string;
-      placeholder_strengths: string;
-      placeholder_suggestions: string;
-      placeholder_additional: string;
-    };
+    instructions: string[];
+    download_label: string;
+    file: string;
   };
   footer: {
     copyright: string;

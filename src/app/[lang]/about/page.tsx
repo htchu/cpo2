@@ -57,7 +57,7 @@ export default async function AboutPage({
       </section>
 
       {/* Principles */}
-      <section>
+      <section className="mb-10">
         <h2 className="text-2xl font-semibold text-slate-800 mb-4">
           {dict.about.principles_title}
         </h2>
@@ -69,6 +69,55 @@ export default async function AboutPage({
               </li>
             ))}
           </ul>
+        </div>
+      </section>
+
+      {/* EMI TDC */}
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold text-slate-800 mb-4">
+          {dict.about.emi_tdc.title}
+        </h2>
+        <p className="text-slate-600 mb-6 leading-relaxed">
+          {dict.about.emi_tdc.intro}
+        </p>
+        <div className="grid md:grid-cols-2 gap-6 mb-6">
+          {dict.about.emi_tdc.services.map((service, i) => (
+            <div
+              key={i}
+              className="bg-white border border-slate-200 rounded-xl p-6"
+            >
+              <h3 className="text-lg font-semibold text-slate-800 mb-2">
+                {service.title}
+              </h3>
+              <p className="text-slate-600 text-sm">{service.description}</p>
+            </div>
+          ))}
+        </div>
+        <div className="flex flex-wrap gap-3">
+          {dict.about.emi_tdc.links.map((link, i) => (
+            <a
+              key={i}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 bg-slate-100 hover:bg-blue-50 border border-slate-200 hover:border-blue-300 rounded-lg text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors"
+            >
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+              {link.label}
+            </a>
+          ))}
         </div>
       </section>
     </div>

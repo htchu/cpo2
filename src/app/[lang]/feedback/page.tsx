@@ -1,123 +1,52 @@
-"use client";
+import { getDictionary } from "@/i18n/dictionaries";
 
-import { useState, useEffect } from "react";
-import type { Dictionary } from "@/i18n/types";
-import { useParams } from "next/navigation";
-
-export default function FeedbackPage() {
-  const params = useParams();
-  const lang = params.lang as string;
-  const [dict, setDict] = useState<Dictionary | null>(null);
-
-  useEffect(() => {
-    const load = async () => {
-      const mod =
-        lang === "zh-TW"
-          ? await import("@/i18n/locales/zh-TW.json")
-          : await import("@/i18n/locales/en.json");
-      setDict(mod.default as Dictionary);
-    };
-    load();
-  }, [lang]);
-
-  if (!dict) return null;
-
-  const f = dict.feedback.form;
+export default async function FeedbackPage({
+  params,
+}: {
+  params: Promise<{ lang: string }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  const fb = dict.feedback;
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
-      <h1 className="text-3xl font-bold text-slate-800 mb-3">
-        {dict.feedback.title}
-      </h1>
-      <p className="text-slate-600 mb-8">{dict.feedback.description}</p>
+      <h1 className="text-3xl font-bold text-slate-800 mb-3">{fb.title}</h1>
+      <p className="text-slate-600 mb-8 leading-relaxed">{fb.description}</p>
 
-      <form
-        className="space-y-6 bg-white border border-slate-200 rounded-xl p-6 md:p-8"
-        onSubmit={(e) => {
-          e.preventDefault();
-          alert(
-            lang === "zh-TW"
-              ? "感謝您的回饋！（此為示範表單）"
-              : "Thank you for your feedback! (This is a demo form)"
-          );
-        }}
+      <div className="bg-white border border-slate-200 rounded-xl p-6 md:p-8 mb-8">
+        <ol className="space-y-4">
+          {fb.instructions.map((instruction, i) => (
+            <li key={i} className="flex items-start gap-4 text-slate-600">
+              <span className="w-7 h-7 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
+                {i + 1}
+              </span>
+              <span className="pt-0.5">{instruction}</span>
+            </li>
+          ))}
+        </ol>
+      </div>
+
+      <a
+        href={fb.file}
+        download
+        className="inline-flex items-center gap-2 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition-colors font-medium"
       >
-        <div className="grid md:grid-cols-2 gap-6">
-          <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">
-              {f.observer_name}
-            </label>
-            <input
-              type="text"
-              required
-              className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-slate-700 mb-1">
-              {f.observation_date}
-            </label>
-            <input
-              type="date"
-              required
-              className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
-            />
-          </div>
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1">
-            {f.course_topic}
-          </label>
-          <input
-            type="text"
-            required
-            className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1">
-            {f.strengths}
-          </label>
-          <textarea
-            rows={4}
-            required
-            placeholder={f.placeholder_strengths}
-            className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none resize-y"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1">
-            {f.suggestions}
-          </label>
-          <textarea
-            rows={4}
-            required
-            placeholder={f.placeholder_suggestions}
-            className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none resize-y"
-          />
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-slate-700 mb-1">
-            {f.additional}
-          </label>
-          <textarea
-            rows={3}
-            placeholder={f.placeholder_additional}
-            className="w-full px-3 py-2 border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none resize-y"
-          />
-        </div>
-
-        <button
-          type="submit"
-          className="w-full py-3 bg-blue-600 hover:bg-blue-500 text-white font-medium rounded-lg transition-colors"
+        <svg
+          className="w-5 h-5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
         >
-          {f.submit}
-        </button>
-      </form>
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+          />
+        </svg>
+        {fb.download_label}
+      </a>
     </div>
   );
 }

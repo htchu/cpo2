@@ -111,7 +111,47 @@
       "Respect — All feedback is delivered constructively and collegially",
       "Reciprocity — Every participant serves as both observer and observed",
       "Growth — The focus is on continuous improvement, not perfection"
-    ]
+    ],
+    "emi_tdc": {
+      "title": "NSYSU EMI Teaching Development Center",
+      "intro": "The EMI Teaching Development Center at National Sun Yat-sen University was established in September 2021 to provide, integrate, and share EMI resources and train university faculty in English-medium instruction. In January 2024, the center expanded its services nationwide and now partners with 11 universities, supporting faculty development through training networks and courses to advance bilingual education in higher education.",
+      "services": [
+        {
+          "title": "Faculty Professional Development",
+          "description": "Offering enhancement courses in instructional language, assessment design, and innovative teaching; inviting senior scholars through AIT collaboration; providing Fulbright Taiwan teaching consultant campus services."
+        },
+        {
+          "title": "Cross-University Support",
+          "description": "Subsidizing cross-university EMI faculty communities; providing classroom observation and consultation services; training consultant teachers for instructional guidance."
+        },
+        {
+          "title": "International Resource Integration",
+          "description": "Collaborating with U.S. universities for online training courses; recommending international EMI training resources and teaching software."
+        },
+        {
+          "title": "Digital Material Development",
+          "description": "Producing flexible EMI digital module materials for faculty and students to use for preview and review."
+        }
+      ],
+      "links": [
+        {
+          "label": "Official Website",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "label": "Services",
+          "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx"
+        },
+        {
+          "label": "Application Form",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform"
+        },
+        {
+          "label": "Related Documents",
+          "url": "https://drive.google.com/drive/u/2/folders/1hBo0i0klnHe49grbSRp6--PkzVrleCRf"
+        }
+      ]
+    }
   },
   "syllabus": {
     "title": "Syllabus",
@@ -351,19 +391,14 @@
   },
   "feedback": {
     "title": "Observation Feedback",
-    "description": "Use this form to submit your observation feedback. All responses are confidential and used solely for professional development.",
-    "form": {
-      "observer_name": "Observer Name",
-      "observation_date": "Observation Date",
-      "course_topic": "Course Topic",
-      "strengths": "Strengths Observed",
-      "suggestions": "Suggestions for Improvement",
-      "additional": "Additional Comments",
-      "submit": "Submit Feedback",
-      "placeholder_strengths": "What aspects of the teaching were particularly effective?",
-      "placeholder_suggestions": "What suggestions would you offer for improvement?",
-      "placeholder_additional": "Any other comments or observations..."
-    }
+    "description": "After the observation, please fill out the Classroom Observation Form to help the instructor continuously improve their teaching. All feedback is confidential and used solely for professional development.",
+    "instructions": [
+      "Download the Classroom Observation Form below.",
+      "Based on the items in the form, provide specific observations and suggestions regarding teaching content, methods, and student engagement.",
+      "Once completed, please send the form to the instructor or course coordinator."
+    ],
+    "download_label": "Download Observation Form",
+    "file": "/Classroom Observation Form-20260602.docx"
   },
   "footer": {
     "copyright": "Course Peer Observation Program",

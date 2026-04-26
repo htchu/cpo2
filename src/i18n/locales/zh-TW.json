@@ -111,7 +111,47 @@
       "尊重 — 所有回饋以建設性和同事間的方式傳達",
       "互惠性 — 每位參與者既是觀課者也是被觀課者",
       "成長 — 重點在於持續改進，而非追求完美"
-    ]
+    ],
+    "emi_tdc": {
+      "title": "中山大學雙語教育資源中心",
+      "intro": "中山大學雙語教育資源中心成立於 2021 年 9 月，致力於提供、整合及分享全英語教學 (EMI) 資源，培訓大專院校教師英語授課能力。2024 年 1 月更名並擴展服務範圍至全國大專院校，現與 11 所大學建立夥伴關係，透過訓練資源網絡及培訓課程，協助教師發展並執行教學策略，推動高教雙語計畫。",
+      "services": [
+        {
+          "title": "教師專業成長",
+          "description": "開辦涵蓋授課語言、評量設計、創新教學等領域的增能課程；與美國在臺協會合作邀請資深學者；與 Fulbright Taiwan 合作提供教學顧問駐校服務。"
+        },
+        {
+          "title": "跨校支持系統",
+          "description": "補助教師成立 EMI 跨校社群；提供觀課諮詢服務；培訓顧問教師進行教學指導。"
+        },
+        {
+          "title": "國際資源整合",
+          "description": "與美國大學合作提供線上培訓課程；推薦國際 EMI 培訓資源與教學軟體。"
+        },
+        {
+          "title": "數位教材開發",
+          "description": "製作可靈活搭配課程的 EMI 數位模組教材，供師生預習複習使用。"
+        }
+      ],
+      "links": [
+        {
+          "label": "中心官網",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "label": "服務項目",
+          "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx"
+        },
+        {
+          "label": "申請表單",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform"
+        },
+        {
+          "label": "相關文件",
+          "url": "https://drive.google.com/drive/u/2/folders/1hBo0i0klnHe49grbSRp6--PkzVrleCRf"
+        }
+      ]
+    }
   },
   "syllabus": {
     "title": "教學計畫",
@@ -351,19 +391,14 @@
   },
   "feedback": {
     "title": "觀課回饋",
-    "description": "請使用此表單提交您的觀課回饋。所有回覆均為保密，僅用於專業發展。",
-    "form": {
-      "observer_name": "觀課者姓名",
-      "observation_date": "觀課日期",
-      "course_topic": "課程主題",
-      "strengths": "觀察到的優勢",
-      "suggestions": "改進建議",
-      "additional": "其他意見",
-      "submit": "提交回饋",
-      "placeholder_strengths": "教學中哪些方面特別有效？",
-      "placeholder_suggestions": "您有什麼改進建議？",
-      "placeholder_additional": "其他意見或觀察..."
-    }
+    "description": "觀課結束後，請觀課者填寫以下觀課回饋表單，以協助授課教師持續改善教學。所有回饋內容均為保密，僅用於專業發展。",
+    "instructions": [
+      "請下載下方的觀課回饋表單 (Classroom Observation Form)。",
+      "依據表單中的項目，針對授課教師的教學內容、教學方法、學生參與度等面向提供具體的觀察紀錄與建議。",
+      "填寫完成後，請將表單寄送至授課教師或課程聯絡人。"
+    ],
+    "download_label": "下載觀課回饋表單",
+    "file": "/Classroom Observation Form-20260602.docx"
   },
   "footer": {
     "copyright": "課程同儕觀課計畫",
