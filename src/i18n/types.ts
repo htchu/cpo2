@@ -147,6 +147,11 @@ export interface Dictionary {
   platforms_tools: {
     title: string;
     description: string;
+    items: Array<{
+      name: string;
+      image: string;
+      description: string;
+    }>;
   };
   emi_resources: {
     title: string;
@@ -161,6 +166,15 @@ export interface Dictionary {
     date: string;
     time: string;
     location: string;
+    map_title: string;
+    transportation_title: string;
+    transportation_source: string;
+    transportation_source_label: string;
+    transportation: Array<{
+      mode: string;
+      icon: string;
+      details: string[];
+    }>;
   };
   resources: {
     title: string;

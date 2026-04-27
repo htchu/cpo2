@@ -370,7 +370,39 @@
   },
   "platforms_tools": {
     "title": "Platforms & Tools",
-    "description": "Teaching platforms and tools used in the course."
+    "description": "Teaching platforms and tools used in the course.",
+    "items": [
+      {
+        "name": "TronClass",
+        "image": "/TronClass.jpg",
+        "description": "Smart teaching platform for course management, assignment submission, attendance tracking, and learning analytics."
+      },
+      {
+        "name": "Slido",
+        "image": "/Slido.jpg",
+        "description": "Interactive Q&A and polling tool for real-time classroom engagement, surveys, and Q&A sessions."
+      },
+      {
+        "name": "CodeChef",
+        "image": "/CodeChef.jpg",
+        "description": "Online competitive programming platform with diverse problem sets and regular contests."
+      },
+      {
+        "name": "Online Judge",
+        "image": "/OnlineJudge.jpg",
+        "description": "Online judge system for automated grading and CPE past exam practice."
+      },
+      {
+        "name": "Padlet",
+        "image": "/Padlet.jpg",
+        "description": "Collaborative whiteboard tool for sharing ideas, notes, and code snippets."
+      },
+      {
+        "name": "Microsoft Teams",
+        "image": "/Teams.jpg",
+        "description": "Team collaboration and communication platform for discussions, file sharing, and online meetings."
+      }
+    ]
   },
   "emi_resources": {
     "title": "EMI Resources",
@@ -384,7 +416,48 @@
     "label_location": "Location",
     "date": "2026-06-02 (Tue)",
     "time": "15:10–18:00",
-    "location": "Room 310, Information Building (Providence University, Ren-Yuan Building 4F)"
+    "location": "Room 310, Information Building (Providence University, Ren-Yuan Building 4F)",
+    "map_title": "Ren-Yuan Building Location",
+    "transportation_title": "Transportation",
+    "transportation_source": "https://www.pu.edu.tw/p/404-1000-2733.php?Lang=zh-tw",
+    "transportation_source_label": "Providence University Transportation Info",
+    "transportation": [
+      {
+        "mode": "By Car",
+        "icon": "car",
+        "details": [
+          "GPS Coordinates: N24.2257°; E120.5772°",
+          "From National Highway 1 (Zhonggang IC): Exit toward Shalu, drive ~11 km on Taiwan Boulevard, approx. 20 min",
+          "From National Highway 3 North (Longjing IC): Head toward Taichung, turn left on Zhongxing Rd, then Taiwan Blvd Sec. 6, ~10 min",
+          "From National Highway 3 South (Shalu IC): Take Zhongqing Rd Sec. 7, turn left on Minmin Rd, then Taiwan Blvd Sec. 7, 5–10 min"
+        ]
+      },
+      {
+        "mode": "By High-Speed Rail",
+        "icon": "train",
+        "details": [
+          "Alight at Taichung HSR Station, take a taxi to campus",
+          "Take Hosin Bus Route 161 to Rongsong/Tunghai University, transfer to optimized bus 300–310 (~55 min; Route 301 enters campus directly)",
+          "Transfer to local train to Shalu Station, then taxi or bus",
+          "Take Taichung MRT to City Government Station, transfer to bus 300–310 (~25 min)"
+        ]
+      },
+      {
+        "mode": "By Train",
+        "icon": "train",
+        "details": [
+          "Shalu Station (Coastal Line): Transfer by taxi or Bus 162 / 301",
+          "Taichung Station (Mountain Line): Take optimized bus 300–310 (~50 min; Route 301 enters campus directly)"
+        ]
+      },
+      {
+        "mode": "By Bus",
+        "icon": "bus",
+        "details": [
+          "Taichung City Bus Routes 162 and 301 provide direct campus access"
+        ]
+      }
+    ]
   },
   "resources": {
     "title": "Observation Guide",

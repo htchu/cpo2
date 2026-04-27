@@ -370,7 +370,39 @@
   },
   "platforms_tools": {
     "title": "平台與工具",
-    "description": "課程使用的教學平台與工具。"
+    "description": "課程使用的教學平台與工具。",
+    "items": [
+      {
+        "name": "TronClass",
+        "image": "/TronClass.jpg",
+        "description": "智慧教學平台，用於課程管理、作業繳交、出缺席追蹤與學習分析。"
+      },
+      {
+        "name": "Slido",
+        "image": "/Slido.jpg",
+        "description": "互動問答與投票工具，促進課堂即時互動、意見調查和 Q&A。"
+      },
+      {
+        "name": "CodeChef",
+        "image": "/CodeChef.jpg",
+        "description": "線上程式競賽平台，提供多元程式挑戰題庫與定期比賽。"
+      },
+      {
+        "name": "Online Judge",
+        "image": "/OnlineJudge.jpg",
+        "description": "線上程式評測系統，支援自動化批改與 CPE 考古題練習。"
+      },
+      {
+        "name": "Padlet",
+        "image": "/Padlet.jpg",
+        "description": "協作白板工具，讓學生分享想法、筆記與程式碼片段。"
+      },
+      {
+        "name": "Microsoft Teams",
+        "image": "/Teams.jpg",
+        "description": "團隊協作與溝通平台，用於課程討論、檔案分享與線上會議。"
+      }
+    ]
   },
   "emi_resources": {
     "title": "相關EMI資源",
@@ -384,7 +416,48 @@
     "label_location": "地點",
     "date": "2026-06-02（二）",
     "time": "15:10–18:00",
-    "location": "資訊處計310教室(靜宜大學任垣樓4F)"
+    "location": "資訊處計310教室(靜宜大學任垣樓4F)",
+    "map_title": "任垣樓位置",
+    "transportation_title": "交通資訊",
+    "transportation_source": "https://www.pu.edu.tw/p/404-1000-2733.php?Lang=zh-tw",
+    "transportation_source_label": "靜宜大學交通資訊",
+    "transportation": [
+      {
+        "mode": "自行開車",
+        "icon": "car",
+        "details": [
+          "GPS 座標：N24.2257°; E120.5772°",
+          "國道一號（中港交流道）：下交流道往沙鹿方向，沿臺灣大道行駛約 11 公里，約 20 分鐘",
+          "國道三號（北上，龍井交流道）：往臺中方向，左轉中興路，再接臺灣大道六段，約 10 分鐘",
+          "國道三號（南下，沙鹿交流道）：行駛中清路七段，左轉民民路，再接臺灣大道七段，約 5–10 分鐘"
+        ]
+      },
+      {
+        "mode": "高鐵",
+        "icon": "train",
+        "details": [
+          "抵達臺中站後可搭計程車前往校區",
+          "搭乘和欣客運 161 路至榮松/東海大學站，轉乘優化公車 300–310 路（約 55 分鐘，301 路可直接入校）",
+          "轉搭區間車至沙鹿站，再搭計程車或公車",
+          "搭乘臺中捷運至市政府站，轉乘 300–310 路公車（約 25 分鐘）"
+        ]
+      },
+      {
+        "mode": "火車",
+        "icon": "train",
+        "details": [
+          "沙鹿站（海線）：轉搭計程車或 162 / 301 路公車",
+          "臺中站（山線）：搭乘優化公車 300–310 路（約 50 分鐘，301 路可直接入校）"
+        ]
+      },
+      {
+        "mode": "公車",
+        "icon": "bus",
+        "details": [
+          "臺中市 162 路公車、301 路公車皆可直接入校"
+        ]
+      }
+    ]
   },
   "resources": {
     "title": "觀課指引",
