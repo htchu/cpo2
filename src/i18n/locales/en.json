@@ -406,7 +406,45 @@
   },
   "emi_resources": {
     "title": "EMI Resources",
-    "description": "EMI teaching resources and references."
+    "description": "EMI teaching resources and references.",
+    "tdc": {
+      "title": "NSYSU Bilingual Education Resource Center",
+      "url": "https://emi-tdc.nsysu.edu.tw/",
+      "intro": "The Bilingual Education Resource Center at National Sun Yat-sen University (Southern Regional Bilingual Education Resource Center) was established in September 2021 to provide, integrate, and share EMI resources and train university faculty in English-medium instruction. In January 2024, it expanded services nationwide and now partners with 11 universities.",
+      "sections": [
+        {
+          "title": "Faculty Development Programs",
+          "description": "EMI faculty training programs including enhancement and co-learning courses, teacher communities, and online courses to develop English-medium instruction capabilities.",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "title": "EMI Teaching Feedback & Consultation",
+          "description": "Classroom observation and consultation services with expert guidance, training consultant teachers for instructional coaching, and supporting cross-university EMI teacher communities.",
+          "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx"
+        },
+        {
+          "title": "EMI Resources",
+          "description": "Includes EMI course quality assurance, teaching video competitions, student digital self-learning resources, and EMI quality assurance exchange events.",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "title": "Cross-University Community Grants",
+          "description": "Subsidies for establishing cross-university EMI faculty communities, promoting experience exchange and collaborative development among educators.",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform"
+        }
+      ],
+      "contact": {
+        "title": "Contact",
+        "address": "No. 70, Lianhai Rd, Gushan District, Kaohsiung City",
+        "phone": "07-5252-000"
+      },
+      "links": [
+        { "label": "Official Website", "url": "https://emi-tdc.nsysu.edu.tw/" },
+        { "label": "Services", "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx" },
+        { "label": "Application Form", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform" },
+        { "label": "Related Documents", "url": "https://drive.google.com/drive/u/2/folders/1hBo0i0klnHe49grbSRp6--PkzVrleCRf" }
+      ]
+    }
   },
   "schedule": {
     "title": "Observation Schedule",

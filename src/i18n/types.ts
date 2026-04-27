@@ -156,6 +156,25 @@ export interface Dictionary {
   emi_resources: {
     title: string;
     description: string;
+    tdc: {
+      title: string;
+      url: string;
+      intro: string;
+      sections: Array<{
+        title: string;
+        description: string;
+        url: string;
+      }>;
+      contact: {
+        title: string;
+        address: string;
+        phone: string;
+      };
+      links: Array<{
+        label: string;
+        url: string;
+      }>;
+    };
   };
   schedule: {
     title: string;

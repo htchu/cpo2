@@ -406,7 +406,45 @@
   },
   "emi_resources": {
     "title": "相關EMI資源",
-    "description": "EMI 教學相關資源與參考資料。"
+    "description": "EMI 教學相關資源與參考資料。",
+    "tdc": {
+      "title": "中山大學雙語教育資源中心",
+      "url": "https://emi-tdc.nsysu.edu.tw/",
+      "intro": "中山大學雙語教育資源中心（南區雙語教育區域資源中心）成立於 2021 年 9 月，致力於提供、整合及分享全英語教學 (EMI) 資源，培訓大專院校教師英語授課能力。2024 年 1 月擴展服務範圍至全國大專院校，現與 11 所大學建立夥伴關係。",
+      "sections": [
+        {
+          "title": "教師增能計畫",
+          "description": "EMI 教師培訓計畫，包含增能與共學課程、教師社群及線上課程，協助教師發展英語授課能力。",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "title": "EMI教學回饋暨諮詢服務",
+          "description": "提供觀課諮詢服務與專家指導，培訓顧問教師進行教學指導，支持跨校 EMI 教師社群。",
+          "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx"
+        },
+        {
+          "title": "EMI資源",
+          "description": "包含 EMI 課程品保、教學影片競賽、學生數位自學資源及 EMI 品保交流會等多元資源。",
+          "url": "https://emi-tdc.nsysu.edu.tw/"
+        },
+        {
+          "title": "跨校社群補助",
+          "description": "補助教師成立 EMI 跨校社群，促進教師間的經驗交流與合作發展。",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform"
+        }
+      ],
+      "contact": {
+        "title": "聯絡資訊",
+        "address": "高雄市鼓山區蓮海路70號",
+        "phone": "07-5252-000"
+      },
+      "links": [
+        { "label": "中心官網", "url": "https://emi-tdc.nsysu.edu.tw/" },
+        { "label": "服務項目", "url": "https://emi-tdc.nsysu.edu.tw/Services.aspx" },
+        { "label": "申請表單", "url": "https://docs.google.com/forms/d/e/1FAIpQLSfvt5NKlPkDBzjgdtAsgYxse6FtPqAIZjMltE3KjfiLDPuEPw/viewform" },
+        { "label": "相關文件", "url": "https://drive.google.com/drive/u/2/folders/1hBo0i0klnHe49grbSRp6--PkzVrleCRf" }
+      ]
+    }
   },
   "schedule": {
     "title": "觀課時程",
