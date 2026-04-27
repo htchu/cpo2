@@ -32,8 +32,41 @@ export interface Dictionary {
   };
   emi_plan: {
     title: string;
-    description: string;
     download_label: string;
+    plan_name: string;
+    plan_name_en: string;
+    period: string;
+    applicant: string;
+    institution: string;
+    category: string;
+    info_labels: {
+      plan_name: string;
+      period: string;
+      applicant: string;
+      institution: string;
+      category: string;
+    };
+    members_title: string;
+    members: Array<{ name: string; school: string; role: string }>;
+    theme_title: string;
+    theme: string;
+    goals: Array<{ title: string; description: string }>;
+    activities_title: string;
+    activities: Array<{
+      number: string;
+      title: string;
+      type: string;
+      time: string;
+      description: string;
+      speaker: string;
+    }>;
+    outputs_title: string;
+    outputs: string[];
+    outcomes_title: string;
+    qualitative_title: string;
+    qualitative: string[];
+    quantitative_title: string;
+    quantitative: string[];
   };
   about: {
     title: string;

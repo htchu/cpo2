@@ -68,8 +68,102 @@
   },
   "emi_plan": {
     "title": "EMI Community Plan",
-    "description": "Bilingual Education Cross-University Community Plan (Year 115), led by Dr. Hsueh-Ting Chu from Providence University, in collaboration with National Sun Yat-sen University EMI.",
-    "download_label": "Download Plan"
+    "download_label": "Download Full Proposal",
+    "plan_name": "Participatory Learning and EMI Education Exchange Community",
+    "plan_name_en": "Participatory Learning and EMI Education Exchange Community",
+    "period": "March 9 – June 30, 2026",
+    "applicant": "Dr. Hsueh-Ting Chu, Associate Professor",
+    "institution": "Providence University / Dept. of Computer Science",
+    "category": "EMI Bridging Curriculum & Syllabus Community",
+    "info_labels": {
+      "plan_name": "Community Name",
+      "period": "Duration",
+      "applicant": "Applicant (Convener)",
+      "institution": "University / Department",
+      "category": "Community Type"
+    },
+    "members_title": "Community Members",
+    "members": [
+      { "name": "Hsueh-Ting Chu", "school": "Providence Univ. / Dept. of Computer Science", "role": "Associate Professor" },
+      { "name": "Chin-Song Hsiao", "school": "Asia Univ. / Dept. of Computer Science", "role": "Professor" },
+      { "name": "Bo-Ling Chen", "school": "NUTC / Dept. of Smart Production Engineering", "role": "Assistant Professor" },
+      { "name": "Wei-Ren Chen", "school": "Providence Univ. / College of Informatics", "role": "Assistant Professor" },
+      { "name": "Li-Chun Yu", "school": "Providence Univ. / Dept. of English", "role": "Adjunct Lecturer" },
+      { "name": "Jinq-Ling Tsai", "school": "Providence Univ. / Foreign Language Center", "role": "Adjunct Lecturer" }
+    ],
+    "theme_title": "Theme & Objectives",
+    "theme": "Building CS EMI Bridging Courses Through Participatory Learning: From Spiral Curriculum to Professional English Practice",
+    "goals": [
+      {
+        "title": "Curriculum Bridging & Optimization",
+        "description": "Develop EMI bridging syllabi with spiral thinking for CS core courses, reducing student frustration in transitioning from foundational to advanced English-taught professional courses."
+      },
+      {
+        "title": "Bilingual Scaffolding",
+        "description": "Develop English bridging materials for CS terminology, using digital platforms as scaffolding to balance professional knowledge and language learning cognitive load."
+      },
+      {
+        "title": "Participatory Teaching Practice",
+        "description": "Introduce active learning pedagogy through cross-disciplinary collaboration to optimize CS learning in an English-medium environment."
+      }
+    ],
+    "activities_title": "Planned Activities",
+    "activities": [
+      {
+        "number": "1",
+        "title": "EMI Teaching Observation",
+        "type": "Observation",
+        "time": "March 2026",
+        "description": "On-site observation of active learning in an English-medium environment, observing cooperative learning implementation and collecting classroom interaction data.",
+        "speaker": "Prof. Yi-Ping Liang, Hungkuang University (30 years EMI experience)"
+      },
+      {
+        "number": "2",
+        "title": "EMI Syllabus Review & Discussion",
+        "type": "Study Group",
+        "time": "April 2026",
+        "description": "Implement spiral thinking strategy, review the bridging flow from foundational exploration to advanced practice, and design teaching scaffolds such as vocabulary preview lists.",
+        "speaker": "Asst. Prof. Yuan-Zhen Mao, Asia University (18 years EMI experience)"
+      },
+      {
+        "number": "3",
+        "title": "EMI Lesson Plan Workshop",
+        "type": "Workshop",
+        "time": "May 2026",
+        "description": "Focus on action principles, develop teaching modules with digital scaffolding, create English-medium guided materials. Produce at least two complete EMI lesson modules.",
+        "speaker": ""
+      },
+      {
+        "number": "4",
+        "title": "Teaching Consultation & Forum",
+        "type": "Forum",
+        "time": "May 2026",
+        "description": "Summarize feedback and developmental outcomes, refine peer review rubrics, and finalize a standardized assessment toolkit.",
+        "speaker": ""
+      }
+    ],
+    "outputs_title": "Expected Outputs",
+    "outputs": [
+      "Participatory EMI lesson modules: 16+2 week English-medium CS teaching guide with spiral thinking strategy",
+      "English problem-solving handbook: collaborative code solutions with English analytical write-ups",
+      "Professional communication rubric: assessment tool balancing technical depth and English communication"
+    ],
+    "outcomes_title": "Expected Outcomes",
+    "qualitative_title": "Qualitative Indicators",
+    "qualitative": [
+      "Apply spiral thinking pedagogy to CS EMI bridging courses, aligning teaching with bilingual cognitive learning patterns",
+      "Strengthen scaffolding theory in bilingual teaching practice, reducing student helplessness with English programming problems",
+      "Foster deep exchange between CS and language faculty, enhancing English-medium professional instruction skills",
+      "Transform students from fearing English-medium environments to enjoying problem-solving challenges"
+    ],
+    "quantitative_title": "Quantitative Indicators",
+    "quantitative": [
+      "Produce 1 Advanced Programming EMI bridging course plan with participatory learning principles",
+      "Produce 1 English problem-solving handbook or GitHub solution knowledge base",
+      "Conduct 4 faculty exchange activities (observation, syllabus review, workshop, forum)",
+      "Guide students to achieve an average of 2+ problems solved in programming exams, or pass the basic standard",
+      "Help each student build a personal English programming portfolio for international applications"
+    ]
   },
   "about": {
     "title": "Peer Observation Program",
