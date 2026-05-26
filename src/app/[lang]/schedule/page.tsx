@@ -1,4 +1,6 @@
 import { getDictionary } from "@/i18n/dictionaries";
+import Image from "next/image";
+import mapImg from "@/img/map.jpg";
 
 export default async function SchedulePage({
   params,
@@ -58,18 +60,11 @@ export default async function SchedulePage({
           <h2 className="text-lg font-semibold text-slate-800 mb-3">
             {dict.schedule.map_title}
           </h2>
-          <div className="aspect-[4/3] w-full rounded-lg overflow-hidden">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.5!2d120.5772!3d24.2257!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693de94a5b6b1d%3A0x4b8e0e5e7e3b4b0a!2z6Z2c5a6c5aSn5a24!5e0!3m2!1szh-TW!2stw!4v1700000000000"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Providence University Ren-Yuan Building"
+          <Image
+              src={mapImg}
+              alt="Providence University Ren-Yuan Building"
+              className="w-full rounded-lg"
             />
-          </div>
         </div>
       </div>
 
